@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2024",
+    "module": "CommonJS",
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "declaration": false,
+    "useUnknownInCatchVariables": false,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "allowJs": false,
+    "types": ["node"],
+    "baseUrl": ".",
+    "resolveJsonModule": false,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
