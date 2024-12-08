@@ -20,5 +20,8 @@
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0"
+  },
+  "dependencies": {
+    "lithia": "^0.0.3-canary.0"
   }
 }
