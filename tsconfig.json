@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2024",
-    "module": "CommonJS",
+    "target": "es2021",
+    "module": "nodenext",
     "strict": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
@@ -13,10 +13,12 @@
     "allowJs": false,
     "types": ["node"],
     "baseUrl": ".",
-    "resolveJsonModule": false,
-    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
     "paths": {
       "@/*": ["src/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", ".lithia"]
 }
