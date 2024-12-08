@@ -1,0 +1,14 @@
+{
+  "name": "lithia-default-app-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "lithia dev",
+    "start": "lithia start",
+    "build": "lithia build"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "private": true
+}
