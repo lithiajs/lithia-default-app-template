@@ -18,10 +18,12 @@
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "prettier": "^3.4.2",
+    "tslib": "^2.8.1",
+    "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0"
   },
   "dependencies": {
-    "lithia": "^0.0.4"
+    "lithia": "^0.0.6"
   }
 }
