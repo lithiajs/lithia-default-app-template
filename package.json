@@ -24,6 +24,6 @@
     "typescript-eslint": "^8.17.0"
   },
   "dependencies": {
-    "lithia": "^0.0.7"
+    "lithia": "^1.0.0"
   }
 }
