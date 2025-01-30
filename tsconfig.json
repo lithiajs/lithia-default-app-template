@@ -1,24 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es2021",
-    "module": "nodenext",
-    "strict": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "removeComments": true,
-    "declaration": false,
-    "useUnknownInCatchVariables": false,
-    "noUnusedLocals": false,
-    "importHelpers": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "allowJs": false,
     "types": ["node"],
-    "baseUrl": ".",
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "moduleResolution": "nodenext",
+    "strict": true,
+    "baseUrl": "",
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "exclude": ["node_modules", ".lithia"]
+  "exclude": []
 }

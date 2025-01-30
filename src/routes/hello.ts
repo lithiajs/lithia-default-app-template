@@ -1,5 +1,5 @@
-import { LithiaRequest, LithiaResponse } from 'lithia';
+import { LithiaRequest, LithiaResponse } from 'lithia/types';
 
-export async function GET(req: LithiaRequest, res: LithiaResponse) {
-  res.send('Hello, from Lithia! 🚀');
+export default async function handle(req: LithiaRequest, res: LithiaResponse) {
+  res.send('Hello, World!');
 }
