@@ -13,7 +13,7 @@
     "lint": "eslint . --fix"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
@@ -25,6 +25,6 @@
     "typescript-eslint": "^8.17.0"
   },
   "dependencies": {
-    "lithia": "^2.0.2"
+    "lithia": "^2.0.3"
   }
 }

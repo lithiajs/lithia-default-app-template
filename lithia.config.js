@@ -1,5 +1,7 @@
-/**@type {import('lithia').LithiaConfig} */
+import { defineLithiaConfig } from 'lithia/config';
 
-const config = {};
-
-module.exports = config;
+export default defineLithiaConfig({
+  server: {
+    port: 3000,
+  },
+});
